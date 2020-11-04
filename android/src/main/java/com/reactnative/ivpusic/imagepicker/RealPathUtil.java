@@ -103,7 +103,7 @@ class RealPathUtil {
      * @return file that has been written
      */
     private static File writeToFile(Context context, String fileName, Uri uri) {
-        String tmpDir = context.getCacheDir() + "/react-native-image-crop-picker";
+        String tmpDir = context.getCacheDir() + "/react-native-image-crop-picker-private";
         Boolean created = new File(tmpDir).mkdir();
         fileName = fileName.substring(fileName.lastIndexOf('/') + 1);
         File path = new File(tmpDir);

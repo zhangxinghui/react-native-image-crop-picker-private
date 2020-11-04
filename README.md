@@ -1,6 +1,6 @@
-# react-native-image-crop-picker
+# react-native-image-crop-picker-private
 
-[![Backers on Open Collective](https://opencollective.com/react-native-image-crop-picker/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-image-crop-picker/sponsors/badge.svg)](#sponsors)
+[![Backers on Open Collective](https://opencollective.com/react-native-image-crop-picker-private/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-image-crop-picker-private/sponsors/badge.svg)](#sponsors)
 
 <img src="svg.svg" width="50%" height="50%" />
 
@@ -9,21 +9,21 @@ iOS/Android image picker with support for camera, video, configurable compressio
 ## Result
 
 <p align="left">
-  <img width=200 title="iOS Single Pick" src="https://github.com/ivpusic/react-native-image-crop-picker/blob/master/images/ios_single_pick.png">
-<img width=200 title="iOS Crop" src="https://github.com/ivpusic/react-native-image-crop-picker/blob/master/images/ios_crop.png">
-<img width=200 title="iOS Multiple Pick" src="https://github.com/ivpusic/react-native-image-crop-picker/blob/master/images/ios_multiple_pick.png">
+  <img width=200 title="iOS Single Pick" src="https://github.com/zhangxinghui/react-native-image-crop-picker-private/blob/master/images/ios_single_pick.png">
+<img width=200 title="iOS Crop" src="https://github.com/zhangxinghui/react-native-image-crop-picker-private/blob/master/images/ios_crop.png">
+<img width=200 title="iOS Multiple Pick" src="https://github.com/zhangxinghui/react-native-image-crop-picker-private/blob/master/images/ios_multiple_pick.png">
 </p>
 
 ## Important note
 
-If you are using react-native >= 0.60 use react-native-image-crop-picker version >= 0.25.0. Otherwise use version < 0.25.0.
+If you are using react-native >= 0.60 use react-native-image-crop-picker-private version >= 0.25.0. Otherwise use version < 0.25.0.
 
 ## Usage
 
 Import library
 
 ```javascript
-import ImagePicker from 'react-native-image-crop-picker';
+import ImagePicker from 'react-native-image-crop-picker-private';
 ```
 
 ### Select from gallery
@@ -132,8 +132,8 @@ ImagePicker.clean().then(() => {
 | minFiles (ios only)                     |            number (default 1)            | Min number of files to select when using `multiple` option |
 | maxFiles (ios only)                     |            number (default 5)            | Max number of files to select when using `multiple` option |
 | waitAnimationEnd (ios only)             |           bool (default true)            | Promise will resolve/reject once ViewController `completion` block is called |
-| smartAlbums (ios only)                  | array ([supported values](https://github.com/ivpusic/react-native-image-crop-picker/blob/master/README.md#smart-album-types-ios)) (default ['UserLibrary', 'PhotoStream', 'Panoramas', 'Videos', 'Bursts']) | List of smart albums to choose from      |
-| useFrontCamera                          |           bool (default false)           | Whether to default to the front/'selfie' camera when opened. Please note that not all Android devices handle this parameter, see [issue #1058](https://github.com/ivpusic/react-native-image-crop-picker/issues/1058)|
+| smartAlbums (ios only)                  | array ([supported values](https://github.com/zhangxinghui/react-native-image-crop-picker-private/blob/master/README.md#smart-album-types-ios)) (default ['UserLibrary', 'PhotoStream', 'Panoramas', 'Videos', 'Bursts']) | List of smart albums to choose from      |
+| useFrontCamera                          |           bool (default false)           | Whether to default to the front/'selfie' camera when opened. Please note that not all Android devices handle this parameter, see [issue #1058](https://github.com/zhangxinghui/react-native-image-crop-picker-private/issues/1058)|
 | compressVideoPreset (ios only)          |      string (default MediumQuality)      | Choose which preset will be used for video compression |
 | compressImageMaxWidth                   |          number (default none)           | Compress image with maximum width        |
 | compressImageMaxHeight                  |          number (default none)           | Compress image with maximum height       |
@@ -179,7 +179,7 @@ ImagePicker.clean().then(() => {
 ## Step 1
 
 ```bash
-npm i react-native-image-crop-picker --save
+npm i react-native-image-crop-picker-private --save
 ```
 
 ## Step 2
@@ -200,7 +200,7 @@ After this use `ios/<project_name>.xcworkspace`. **Do not use** `ios/<project_na
 #### - If you are not using Cocoapods which is not recommended:
 
 ```bash
-react-native link react-native-image-crop-picker
+react-native link react-native-image-crop-picker-private
 ```
 
 ### Android
@@ -208,7 +208,7 @@ react-native link react-native-image-crop-picker
 NOTE: If you are using react-native >= 0.60 autolinking, you can skip this step.
 
 ```bash
-react-native link react-native-image-crop-picker
+react-native link react-native-image-crop-picker-private
 ```
 
 ## Post-install steps
@@ -319,7 +319,7 @@ AndroidManifest.xml`
 #### Manual
 
 If you are using pre-built frameworks from `ios/ImageCropPickerSDK`, then before deploying app to production you should strip off simulator ARCHs from these, or you can add frameworks from `Libraries/imageCropPicker/Libraries/_framework_name_.xcodeproj/Products/_framework_name_.framework` to Embedded Binaries instead of pre-built ones.
-Related issue: https://github.com/ivpusic/react-native-image-crop-picker/issues/61.
+Related issue: https://github.com/zhangxinghui/react-native-image-crop-picker-private/issues/61.
 
 Details for second approach:
 
@@ -336,30 +336,30 @@ Details for second approach:
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-<a href="graphs/contributors"><img src="https://opencollective.com/react-native-image-crop-picker/contributors.svg?width=890" /></a>
+<a href="graphs/contributors"><img src="https://opencollective.com/react-native-image-crop-picker-private/contributors.svg?width=890" /></a>
 
 
 ## Backers
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/react-native-image-crop-picker#backer)]
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/react-native-image-crop-picker-private#backer)]
 
-<a href="https://opencollective.com/react-native-image-crop-picker#backers" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/backers.svg?width=890"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private#backers" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/backers.svg?width=890"></a>
 
 
 ## Sponsors
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/react-native-image-crop-picker#sponsor)]
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/react-native-image-crop-picker-private#sponsor)]
 
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-image-crop-picker-private/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-native-image-crop-picker-private/sponsor/9/avatar.svg"></a>
 
 
 

@@ -1,4 +1,4 @@
-declare module "react-native-image-crop-picker" {
+declare module "react-native-image-crop-picker-private" {
     export interface Options {
         cropping?: boolean;
         width?: number;

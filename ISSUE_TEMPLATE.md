@@ -1,7 +1,7 @@
 ### Version
 Tell us which versions you are using: 
 
-- react-native-image-crop-picker v0.?.?
+- react-native-image-crop-picker-private v0.?.?
 - react-native v0.?.?
 
 ### Platform
@@ -30,5 +30,5 @@ Tell us to which platform this issue is related
 
 // stacktrace or any other useful debug info
 
-Love react-native-image-crop-picker? Please consider supporting our collective:
-👉  https://opencollective.com/react-native-image-crop-picker/donate
+Love react-native-image-crop-picker-private? Please consider supporting our collective:
+👉  https://opencollective.com/react-native-image-crop-picker-private/donate
